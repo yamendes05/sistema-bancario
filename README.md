@@ -1,7 +1,6 @@
 # sistema-bancário
 
 Este é um projeto de sitema bancário  desenvolvido em python. Ele exibe a operações de sacar, deposito, extrato e sair.
-#Estrutura do Projeto
 
 
 ## Funcionalidades
