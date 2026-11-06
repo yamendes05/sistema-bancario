@@ -1,26 +1,30 @@
-# sistema-bancário
+# Sistema Bancário em Python
 
-Este é um projeto de sitema bancário  desenvolvido em python. Ele exibe a operações de sacar, deposito, extrato e sair.
-
+Projeto de estudo que simula operações bancárias básicas por meio de um programa de terminal.
 
 ## Funcionalidades
+- **Depósito:** adiciona valores positivos ao saldo e registra a operação no extrato.
+- **Saque:** verifica saldo disponível, limite por saque e quantidade máxima de saques.
+- **Extrato:** apresenta as movimentações realizadas e o saldo atual.
+- **Sair:** encerra a execução do programa.
 
-Esse programa é um simulador de operações bancárias básicas, como depósito, saque e visualização de extrato.
+## Tecnologia
+- Python 3
 
--Depósito (d): Quando o usuário seleciona 'd', ele é solicitado a inserir o valor do depósito. Se o valor for positivo, ele é adicionado ao saldo e uma linha é adicionada ao extrato indicando o depósito. Se o valor for negativo ou zero, uma mensagem de falha é exibida.
+## Como executar
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/yamendes05/sistema-bancario.git
+   ```
+2. Entre na pasta e execute o script principal:
+   ```bash
+   cd sistema-bancario
+   python <arquivo-principal>.py
+   ```
+Substitua `<arquivo-principal>.py` pelo nome do script principal existente.
 
--Saque (s): Ao selecionar 's', o usuário insere o valor que deseja sacar. O programa verifica várias condições antes de permitir o saque: se há saldo suficiente, se o valor excede o limite de saque e se o número máximo de saques já foi atingido. Se todas as condições forem atendidas, o valor é deduzido do saldo, uma linha é adicionada ao extrato indicando o saque, e o número de saques é incrementado.
+## Objetivo de aprendizagem
+Praticar lógica de programação, estruturas condicionais e de repetição, validação de entradas e manipulação de dados em Python.
 
--Extrato (e): A opção 'e' permite ao usuário visualizar seu extrato, que inclui todas as transações feitas até o momento, bem como o saldo atual.
-
--Sair (q): Essa opção termina o programa, encerrando o loop while.
-
-## Tecnologias Utilizadas
-
-- Python
-
-## Autor
-
-Este projeto foi desenvolvido por Yara Mendes(https://github.com/yamendes05).
-
-
+## Autoria
+Desenvolvido por [Yara Mendes](https://github.com/yamendes05).
